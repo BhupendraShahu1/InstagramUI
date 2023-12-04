@@ -1,14 +1,27 @@
 # APP Name 
 # InstagramUI
 - # Overview
- This is a simple InstagramUI app developed in Java base on MVC architecture pattern , utilizing the Room Database for efficient data storage and management. The app allows users to create, edit, and delete notes, ensuring a seamless experience for organizing thoughts and tasks.
+In this app we use only three Activity Screen that are Splash,Login and MainActivity Screen and the whole app is based on Fragment and we use Fragment Navigation that are simple and easy to use that are make light wight , neat and clean Instagram UI
 - # Feature 
-- **Create Notes:** Easily add new notes with a title and content.
-- **Edit Notes:** Update existing notes with new information or modifications.
-- **Delete Notes:** Remove unwanted notes to keep the list concise.
-- **Room Database:** Utilizes Room for local data persistence, providing a robust and efficient solution for storing notes.
-- **Change UI:** In this App we have two type of UI that are You change it according to You
-- **Change languge and theam:** In this App You can change Dark and Light mode and Language Hindi and English
+- ## Splash Screen:
+A splash screen is the initial screen that appears when the Instagram app is launched.
+- ## Login Screen:
+-  **Username/Email and Password:** Username/Email and Password: Users are prompted to enter their username or email and password associated with their Instagram account.
+- **"Forgot Password" Link:** " Link: A link is typically provided for users who may have forgotten their password. Clicking on this link allows users to reset their password.
+- **"Log In" Button:** After entering the required credentials, users can click the "Log In" button to authenticate and access their Instagram account.
+- ## Create Account Screen-
+- **Sign-Up Form:** Users who do not have an Instagram account can sign up by providing the following information:
+- **Full Name:** The user's full name.
+- **Username:** A unique username that will be associated with the user's account (e.g., @example).
+- **Email:** The user's email address.
+- **Password:** A secure password for the account.
+- **Next Button:** After entering the required information, users can proceed to the next step by clicking the "Next" button.
+- ## Bottom Navigation Bar:
+- Instagram's bottom navigation bar is a key component that provides easy access to various sections of the app.
+- It usually includes icons and labels for Home Feed, Search, Camera (for creating posts), Activity (notifications), and the User's Profile.
+- Tapping on each icon in the bottom navigation bar navigates the user to the corresponding section of the app.
+- The selected icon is often highlighted to indicate the user's current location within the app.
+- The bottom navigation bar is a persistent element that remains visible across different screens for quick navigation.
 - # Requirements
  - ### Android Studio
 - ### Android SDK
@@ -31,7 +44,7 @@ Before you begin, ensure you have the following tools installed:
 2. Clone the repository using the following command:
 
     ```bash
-    git clone https://github.com/BhupendraShahu1/Note-App-Kotlin.git
+    git clone https://github.com/BhupendraShahu1/InstagramUI.git
     ```
 
 ### Open in Android Studio
