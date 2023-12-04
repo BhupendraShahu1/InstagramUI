@@ -1,4 +1,4 @@
-package com.example.instagram.NavigateFragment;
+package com.example.instagram.Fragment.BottomNavigationFragment;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;

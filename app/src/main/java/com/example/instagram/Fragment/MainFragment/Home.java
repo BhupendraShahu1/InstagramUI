@@ -1,4 +1,4 @@
-package com.example.instagram.Fragment;
+package com.example.instagram.Fragment.MainFragment;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;

@@ -6,27 +6,27 @@
     app:startDestination="@id/homeViewFragment">
     <fragment
         android:id="@+id/homeViewFragment"
-        android:name="com.example.instagram.NavigateFragment.HomeViewFragment"
+        android:name="com.example.instagram.Fragment.BottomNavigationFragment.HomeViewFragment"
         android:label="fragment_home_view_fragmnet"
         tools:layout="@layout/fragment_home_view_fragmnet" />
     <fragment
         android:id="@+id/searchFragment"
-        android:name="com.example.instagram.NavigateFragment.SearchFragment"
+        android:name="com.example.instagram.Fragment.BottomNavigationFragment.SearchFragment"
         android:label="fragment_search"
         tools:layout="@layout/fragment_search" />
     <fragment
         android:id="@+id/addPost2"
-        android:name="com.example.instagram.NavigateFragment.AddPost"
+        android:name="com.example.instagram.Fragment.BottomNavigationFragment.AddPost"
         android:label="fragment_add_post"
         tools:layout="@layout/fragment_add_post" />
     <fragment
         android:id="@+id/reels"
-        android:name="com.example.instagram.NavigateFragment.Reels"
+        android:name="com.example.instagram.Fragment.BottomNavigationFragment.Reels"
         android:label="fragment_reels"
         tools:layout="@layout/fragment_reels" />
     <fragment
         android:id="@+id/profileFragment"
-        android:name="com.example.instagram.NavigateFragment.ProfileFragment"
+        android:name="com.example.instagram.Fragment.BottomNavigationFragment.ProfileFragment"
         android:label="fragment_profile"
         tools:layout="@layout/fragment_profile" />
 </navigation>

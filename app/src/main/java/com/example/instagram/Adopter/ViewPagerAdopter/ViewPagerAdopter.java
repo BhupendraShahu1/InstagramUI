@@ -1,12 +1,12 @@
-package com.example.instagram.Adopter;
+package com.example.instagram.Adopter.ViewPagerAdopter;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentStatePagerAdapter;
 
-import com.example.instagram.Fragment.Home;
-import com.example.instagram.Fragment.Massages;
+import com.example.instagram.Fragment.MainFragment.Home;
+import com.example.instagram.Fragment.MainFragment.Massages;
 
 public class ViewPagerAdopter extends FragmentStatePagerAdapter {
 

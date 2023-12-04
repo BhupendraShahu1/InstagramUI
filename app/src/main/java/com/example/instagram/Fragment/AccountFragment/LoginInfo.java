@@ -1,4 +1,4 @@
-package com.example.instagram.AccountFragment;
+package com.example.instagram.Fragment.AccountFragment;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -21,7 +21,7 @@ public class LoginInfo extends Fragment {
         // Inflate the layout for this fragment
         loginInfoBinding = DataBindingUtil.inflate(inflater, R.layout.fragment_login_info, container, false);
         NavController navController = NavHostFragment.findNavController(this);
-        loginInfoBinding.btnlogin.setOnClickListener(new View.OnClickListener() {
+        loginInfoBinding.btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 navController.navigate(R.id.action_loginInfo_to_mainActivity2);

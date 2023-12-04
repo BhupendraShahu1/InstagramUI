@@ -6,11 +6,13 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@color/black"
-        tools:context=".NavigateFragment.Reels">
+        tools:context=".Fragment.BottomNavigationFragment.Reels">
 
-        <androidx.recyclerview.widget.RecyclerView
+        <androidx.viewpager2.widget.ViewPager2
             android:id="@+id/reels_recycle"
             android:layout_width="match_parent"
+            android:orientation="vertical"
             android:layout_height="match_parent" />
+        <include layout="@layout/reels_item"/>
     </FrameLayout>
 </layout>

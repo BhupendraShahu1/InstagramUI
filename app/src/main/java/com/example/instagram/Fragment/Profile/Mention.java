@@ -1,4 +1,4 @@
-package com.example.instagram.NavigateFragment;
+package com.example.instagram.Fragment.Profile;
 
 import android.os.Bundle;
 
@@ -10,11 +10,12 @@ import android.view.ViewGroup;
 
 import com.example.instagram.R;
 
-public class AddPost extends Fragment {
+public class Mention extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_add_post, container, false);
+        View view= inflater.inflate(R.layout.fragment_mention, container, false);
+        return view;
     }
 }

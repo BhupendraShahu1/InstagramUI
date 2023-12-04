@@ -5,7 +5,7 @@ import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.viewpager.widget.ViewPager;
 
-import com.example.instagram.Adopter.ViewPagerAdopter;
+import com.example.instagram.Adopter.ViewPagerAdopter.ViewPagerAdopter;
 
 public class MainActivity extends AppCompatActivity {
     ViewPager viewPager;

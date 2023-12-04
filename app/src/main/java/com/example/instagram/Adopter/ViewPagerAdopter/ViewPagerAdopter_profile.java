@@ -1,5 +1,4 @@
-package com.example.instagram.Adopter;
-
+package com.example.instagram.Adopter.ViewPagerAdopter;
 
 
 import androidx.annotation.NonNull;
@@ -7,8 +6,9 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentStatePagerAdapter;
 
-import com.example.instagram.Fragment.Home;
-import com.example.instagram.Fragment.Massages;
+import com.example.instagram.Fragment.Profile.Mention;
+import com.example.instagram.Fragment.Profile.Post;
+import com.example.instagram.Fragment.Profile.Reels;
 
 public class ViewPagerAdopter_profile extends FragmentStatePagerAdapter {
 
@@ -21,17 +21,16 @@ public class ViewPagerAdopter_profile extends FragmentStatePagerAdapter {
     @Override
     public Fragment getItem(int position) {
         if (position == 0) {
-            return new Home();
+            return new Post();
         } else if (position==1){
-            return new Massages();
+            return new Reels();
         }else {
-            return new Home();
+            return new Mention();
         }
     }
 
     @Override
     public int getCount() {
-
-        return 2;
+        return 3;
     }
 }

@@ -1,4 +1,4 @@
-package com.example.instagram.NavigateFragment;
+package com.example.instagram.Fragment.BottomNavigationFragment;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -7,7 +7,6 @@ import android.view.ViewGroup;
 
 import androidx.databinding.DataBindingUtil;
 import androidx.fragment.app.Fragment;
-import androidx.recyclerview.widget.LinearLayoutManager;
 
 import com.example.instagram.Adopter.ReelsAdopter;
 import com.example.instagram.Model.ReelsModel;
@@ -26,12 +25,10 @@ public class Reels extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         reelsBinding = DataBindingUtil.inflate(inflater, R.layout.fragment_reels, container, false);
-        reels();
+//        reels();
         return reelsBinding.getRoot();
     }
-
     private void reels() {
-        reelsBinding.reelsRecycle.setLayoutManager(new LinearLayoutManager(getContext()));
         reelsAdopter = new ReelsAdopter(arrayList, getContext());
         arrayList.add(new ReelsModel(R.drawable.ic_launcher_background, "Raju", "nothing", "56.7K", "1h", "34.2k", R.drawable.ic_launcher_background, "23.4k"));
         arrayList.add(new ReelsModel(R.drawable.ic_launcher_background, "Ramu", "nothing", "56.7K", "3h", "34.2k", R.drawable.ic_launcher_background, "23.4k"));
