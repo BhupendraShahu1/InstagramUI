@@ -64,7 +64,14 @@ Before you begin, ensure you have the following tools installed:
 ### Explore the App
 
 - Open the app and explore the intuitive user interface.
-- Create new notes, edit existing ones, and delete notes as needed.
-- Experience the seamless integration of Room Database for efficient data storage.
-
 # OutLook
+<img src="https://github.com/BhupendraShahu1/InstagramUI/assets/149964984/102ef46f-ea68-481d-9b84-a5b3e27ab9b4Splash.jpg" alt="Splash Screen" width="200" hight="300"/>
+<img src="https://github.com/BhupendraShahu1/InstagramUI/assets/149964984/f99ef8b9-af26-429b-8811-585f135ba802/login.jPg" width="200" hight="300"/>
+
+<img src="https://github.com/BhupendraShahu1/InstagramUI/assets/149964984/2676c6b6-b49c-4708-9c23-98651f9d4e4f/CreatName.jpg" width="200" hight="300"/>
+<img src="https://github.com/BhupendraShahu1/InstagramUI/assets/149964984/f0453faf-bebe-4ef4-b1f5-92dee3e2ca4e/MicrosoftTeams-image.jpg" width="200" hight="300"/>
+
+<img src="https://github.com/BhupendraShahu1/InstagramUI/assets/149964984/1be337af-777e-4565-a085-40f1ab0143b3/.jpg" width="200" hight="300"/>
+<img src="https://github.com/BhupendraShahu1/InstagramUI/assets/149964984/6141f645-7c9d-4947-afc1-93d43298a432"/.jpg" width="200" hight="300"/>
+<img src="https://github.com/BhupendraShahu1/InstagramUI/assets/149964984/51087566-b465-47ec-a687-a065c52e6226/.jpg" width="200" hight="300"/>
+
